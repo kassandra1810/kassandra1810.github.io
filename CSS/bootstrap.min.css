@@ -12,6 +12,10 @@ body {
   flex: 1 0 auto;
 }
 
+.container {
+	
+}
+
 .carousel-item {
   height: 65vh;
   min-height: 350px;
@@ -317,6 +321,7 @@ p {
 	position: relative;
 	padding-top: 80px;
 	padding-bottom: 100px;	
+	max-width: 1600px;
 }
 
 .testimonial-section:before{
