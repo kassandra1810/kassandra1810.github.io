@@ -288,8 +288,8 @@ p {
 /***************************************** current development ************************************************/
 
 .fa-spin {
-  -webkit-animation: fa-spin 4s infinite linear;
-          animation: fa-spin 4s infinite linear; }
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; }
 
 .fa-pulse {
   -webkit-animation: fa-spin 1s infinite steps(8);
@@ -532,7 +532,7 @@ p {
   font-size: 2.0em;
   line-height: 48px;
   padding-bottom: 20px;
-     color: #43a4ca;
+    color: #43a4ca;
     background: #5543ca;
 	background:-moz-linear-gradient(top, #03f0fc 0%, #012ffc 100%); 
 	background: -webkit-linear-gradient(top, #03f0fc 0%,#012ffc 100%); 
@@ -546,6 +546,7 @@ p {
   margin: 22px 0;
 }
 .contact-form .input-text {
+  padding-top: 15px;
   display: block;
   width: 100%;
   height: 40px;
@@ -559,11 +560,18 @@ p {
 .contact-form .input-text:focus {
   outline: none;
 }
-.contact-form .input-text:focus + .label,
-.contact-form .input-text.not-empty + .label {
+.contact-form .input-text:focus + .label {
   -webkit-transform: translateY(-24px);
           transform: translateY(-24px);
 }
+
+
+.contact-form .input-text.not-empty + .label {
+  /* -webkit-transform: translateY(-24px); */
+          transform: translateY(-24px);
+}
+
+
 .contact-form .label {
   position: absolute;
   left: 22px;
@@ -603,6 +611,7 @@ p {
 
 
 /*****************************************************************************************/
+
 
 /* Other Classes for Page Styling */
 /*!

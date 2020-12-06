@@ -79,7 +79,7 @@
 			margin:0,
 			nav:true,
 			smartSpeed: 300,
-			autoplay: 7000,
+			autoplay: 17000,
 			navText: [ '<span class="arrow-left"></span>', '<span class="arrow-right"></span>' ],
 			responsive:{
 				0:{
@@ -95,7 +95,7 @@
 					items:1
 				}
 			}
-		});  		
+		}); 	
 	}
 
 
